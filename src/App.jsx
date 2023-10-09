@@ -58,7 +58,7 @@ export default function App() {
       <div className="App">
         <Main>
 
-            <Image src="src/assets/img/illustration-hero.svg" alt="illustration" />
+            <Image src="./src/assets/img/illu.svg" alt="illustration" />
           <ContentContainer>
             <h1>Order Summary</h1>
             <Text>
@@ -68,7 +68,7 @@ export default function App() {
             </Text>
             <ChangeContainer>
               <PlanContainer>
-                <Icon src="src/assets/img/icsrc/assets/img/icon-music.svg" alt="music icon" />
+                <Icon src="./src/assets/img/mus.svg" alt="music icon" />
                 <div>
                   <h2>Annual Plan</h2>
                   <Text>$59.99/year</Text>
