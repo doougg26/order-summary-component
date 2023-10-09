@@ -24,7 +24,14 @@ flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
 `
-
+const Image = styled.img`
+  width: 400px;
+  border-radius: 10px 10px 0 0;
+`
+const Icon = styled.img`
+width: 40px;
+height:40px;
+`
 const ChangeContainer = styled.section`
   display: flex;
   flex-direction: row;
@@ -51,7 +58,7 @@ export default function App() {
       <div className="App">
         <Main>
 
-            <img className="Image" src="./assets/img/illustration-hero.png" alt="illustration" />
+            <Image src="https://imageupload.io/ib/C5mdEhatAdezK2t_1696817331.png" alt="illustration" />
           <ContentContainer>
             <h1>Order Summary</h1>
             <Text>
@@ -61,7 +68,7 @@ export default function App() {
             </Text>
             <ChangeContainer>
               <PlanContainer>
-                <img className="Icon" src="./assets/img/mus.svg" alt="music icon" />
+                <Icon src="https://imageupload.io/ib/OkoUaa2xTiw90rU_1696817559.png" alt="music icon" />
                 <div>
                   <h2>Annual Plan</h2>
                   <Text>$59.99/year</Text>
