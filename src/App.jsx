@@ -58,7 +58,7 @@ export default function App() {
       <div className="App">
         <Main>
 
-            <Image src="/assets/img/illu.svg" alt="illustration" />
+            <Image src="assets/img/illustration-hero.png" alt="illustration" />
           <ContentContainer>
             <h1>Order Summary</h1>
             <Text>
