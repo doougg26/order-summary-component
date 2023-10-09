@@ -2,6 +2,8 @@ import styled from "styled-components"
 import './App.css'
 import Btn from "./Components/Btn/Btn"
 import Text from "./Components/Text/Text"
+import Header from "./Components/Header/Header"
+import Footer from "./Components/Btn/Footer/Footer"
 
 const Main = styled.main`
 background-color: white;
@@ -56,6 +58,7 @@ export default function App() {
     <>
 
       <div className="App">
+        <Header/>
         <Main>
 
             <Image src="https://imageupload.io/ib/C5mdEhatAdezK2t_1696817331.png" alt="illustration" />
@@ -81,7 +84,9 @@ export default function App() {
               <Btn style={{backgroundColor: "#f5f7ff", color:"#7280a7"}}>Cancel Order</Btn>
             </BtnContainer>
           </ContentContainer></Main>
+          <Footer/>
       </div>
     </>
   )
 }
+
