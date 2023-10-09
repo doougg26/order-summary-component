@@ -68,7 +68,7 @@ export default function App() {
             </Text>
             <ChangeContainer>
               <PlanContainer>
-                <Icon src="./assets/img/icon-music.svg" alt="music icon" />
+                <Icon src="./assets/img/icsrc/assets/img/icon-music.svg" alt="music icon" />
                 <div>
                   <h2>Annual Plan</h2>
                   <Text>$59.99/year</Text>
