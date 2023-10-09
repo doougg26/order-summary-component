@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}.App{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./assets/img/pattern-background-desktop.svg");
+  width: 100vw;
+  height: 100vh;
+  background-position: top top;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a:hover{
+  text-decoration: none;
+}
